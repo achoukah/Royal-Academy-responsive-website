@@ -1,0 +1,39 @@
+html {
+  font-size: 14px;
+}
+
+header {
+  // background: $bk-lt;
+
+  nav {
+    // display: none;
+    ul {
+      // display: block;
+    }
+    li {
+      // display: block;
+      // width: 100%;
+    }
+
+  }
+}
+
+
+
+.ra-container {
+  column-count: 3;
+  column-gap: 2em;
+  width: 100vw;
+  display: block;
+  padding: 0 1em;
+
+  .teaser {
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 100%;
+
+    &:nth-child(1) {
+      column-span: all;
+    }
+  }
+}
